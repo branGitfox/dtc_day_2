@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    background-color:#04151F ;
+}
 
 .body{
     padding: 50px;
@@ -10,7 +13,12 @@
     height: 100vh;
     margin: 0 auto;
     background-color: #04151F;
+    transition:1s;
 }
+ .body:hover{
+    transition: 1s;
+    transform: scale(1.2,1.2);
+ }
 
 
 .form-group {
@@ -102,5 +110,10 @@ h2 {
  .g {
     font-size: 20px;
     color: aliceblue;
+    text-align: center;
+ }
+
+ #b {
+    padding: 10px;
     text-align: center;
  }
