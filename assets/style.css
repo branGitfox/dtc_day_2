@@ -14,8 +14,12 @@ body {
     margin: 0 auto;
     background-color: #04151F;
     transition:1s;
+ 
 }
- .body:hover{
+table {
+    transition:1s;
+}
+ table:hover{
     transition: 1s;
     transform: scale(1.2,1.2);
  }
